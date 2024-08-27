@@ -7,7 +7,7 @@
     },
     {
         "name": "Youth Group Lyrics",
-        "url": "https://bentonchurch.github.io/YouthLyrics/",
+        "url": "https://bentonchurch.github.io/youth-lyrics/",
         "img": "./img/slides-icon.jpg",
         "description": "A slides application built specially for the Benton Youth group."
     }
