@@ -49,13 +49,15 @@
     max-width: calc(100% - 10px);
 }
 
-.services-widget .service-row .top .project-page {
-    text-decoration: none;
-    color: #8d96a0;
-}
-
-.services-widget .service-row .top .project-page:hover {
-    text-decoration: underline;
+.services-widget .service-row .top .tag {
+    --tag-color: #ffffff;
+    color: var(--tag-color);
+    font-weight: 400;
+    font-size: 0.9em;
+    border: 1px solid var(--tag-color);
+    border-radius: 1em;
+    padding: 1px 5px 2px;
+    user-select: none;
 }
 
 .services-widget .service-row .bottom .description a {

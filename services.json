@@ -3,12 +3,26 @@
         "name": "Daily Bible Readings",
         "url": "https://bentonchurch.github.io/bible-readings/",
         "img": "./img/daily-bible-readings.png",
-        "description": "A simple app to read the Bible out loud to you."
+        "description": "A simple app to read the Bible out loud to you.",
+        "tags": []
     },
     {
         "name": "Youth Group Lyrics",
         "url": "https://bentonchurch.github.io/youth-lyrics/",
         "img": "./img/slides-icon.jpg",
-        "description": "A slides application built specially for the Benton Youth group."
+        "description": "A slides application built specially for the Benton Youth group.",
+        "tags": []
+    },
+    {
+        "name": "Daily Bible Readings 2.0",
+        "url": "https://bentonchurch.github.io/bible-readings-v2/",
+        "img": "./img/bible-icon.png",
+        "description": "A newer version of the original Bible readings app.  This is still very early in development, and not recommended for use.",
+        "tags": [
+            {
+                "name": "pre-release",
+                "color": "limegreen"
+            }
+        ]
     }
 ]

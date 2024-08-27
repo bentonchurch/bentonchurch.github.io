@@ -21,6 +21,11 @@ export function servicesWidget(limit) {
         // Project name
         topRow.innerHTML += `<a target="blank" href="${project.url}" class="project-name">${project.name}</a>`;
 
+        // Project tags
+        for (let tag of project.tags) {
+            topRow.innerHTML += `<span class="tag" style="--tag-color: ${tag.color}">${tag.name}</span>`;
+        }
+
         // Project description
         bottomRow.innerHTML += `<p class="description">${project.description}</p>`;
 
