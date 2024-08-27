@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects | Benton Street Baptist Church</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/githubProjectsWidget.css" />
+    <link rel="stylesheet" href="./css/githubSection.css" />
+    <link rel="stylesheet" href="./css/projectsSection.css" />
+    <link rel="stylesheet" href="./css/servicesWidget.css" />
+
+    <style>
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="projects-section">
+        <div class="content">
+            <h1>Try our applications</h1>
+            <div id="services-container"></div>
+            <!-- <div  class="projects-link">
+                <a href="./projects">See all services <span class="arrow">&#8250;</span></a>
+            </div> -->
+        </div>
+    </section>
+    <section class="github-section">
+        <div class="content">
+            <h1>Explore our GitHub repositories</h1>
+            <div id="repositories-container"></div>
+            <div  class="projects-link">
+                <a target="blank" href="https://github.com/orgs/bentonchurch/repositories">See all repositories<span class="arrow">&#8250;</span></a>
+            </div>
+        </div>
+    </section>
+    <script type="module">
+        import { githubProjectsWidget } from './js/githubProjectsWidget.js';
+        import { servicesWidget } from './js/servicesWidget.js';
+        document.getElementById('services-container').appendChild(servicesWidget(3));
+        document.getElementById('repositories-container').appendChild(githubProjectsWidget(3));
+    </script>
+</body>
+
+</html>

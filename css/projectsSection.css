@@ -1,0 +1,124 @@
+.projects-section {
+    --row-height: max(512px, 50vh);
+    background: url('../img/apps-background.jpg'), #112231;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-y: center;
+    background-position-x: max(calc(75% + var(--row-height) / 2), 100%);
+    height: var(--row-height);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.projects-section .content h1 {
+    margin: 0px;
+    margin-bottom: 16px;
+    font-size: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.projects-section .content .projects-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 15px;
+}
+
+.projects-section .content .projects-link a {
+    margin: 0px;
+    color: #ffffff;
+    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25em;
+    text-decoration: none;
+    transition-duration: 250ms;
+    width: 9em;
+    color: #8d96a0;
+}
+
+.projects-section .content .projects-link a:hover {
+    gap: 0.5em;
+}
+
+.projects-section .content .projects-link a .arrow {
+    font-size: 1.5em;
+    margin-bottom: 0.125em;
+}
+
+.projects-section .content {
+    padding: 32px;
+    width: 50%;
+}
+
+@media only screen and (min-width: 871px) {
+    .projects-section .content {
+        background: linear-gradient(90deg, #112231, #112231 50%, #11223100 75%, #11223100);
+        padding-top: 256px;
+        padding-bottom: 256px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .projects-section {
+        background: linear-gradient(#11223100, #11223100 25%, #112231 75%, #112231), url('../img/apps-background.jpg'), #112231;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-y: -10vw;
+        background-position-x: center;
+        height: auto;
+        padding-top: 30vw;
+    }
+
+    .projects-section .content {
+        width: 100%;
+    }
+
+    .projects-section .content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    .projects-section .content h1 {
+        font-size: 35px;
+    }
+
+    .projects-section {
+        background: linear-gradient(#11223100, #11223100 20%, #112231 65%, #112231), url('../img/apps-background.jpg'), #112231;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-y: -10vw;
+        background-position-x: center;
+        padding-top: 27vw;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .projects-section {
+        background: linear-gradient(#11223100, #11223100 15%, #112231 45%, #112231), url('../img/apps-background.jpg'), #112231;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-y: -10vw;
+        background-position-x: center;
+        padding-top: 27vw;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .projects-section {
+        background: linear-gradient(#11223100, #11223100 15%, #112231 45%, #112231), url('../img/apps-background.jpg'), #112231;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-y: -10vw;
+        background-position-x: center;
+    }
+}

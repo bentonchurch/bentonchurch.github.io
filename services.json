@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Daily Bible Readings",
+        "url": "https://bentonchurch.github.io/bible-readings/",
+        "img": "./img/daily-bible-readings.png",
+        "description": "A simple app to read the Bible to you"
+    },
+    {
+        "name": "Youth Group Lyrics",
+        "url": "https://bentonchurch.github.io/YouthLyrics/",
+        "img": "./img/slides-icon.jpg",
+        "description": "A slides application built specially for the Benton Youth group"
+    }
+]
