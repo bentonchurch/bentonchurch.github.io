@@ -64,6 +64,10 @@
         padding-bottom: 256px;
         width: 100%;
     }
+
+    #services-container {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 870px) {
